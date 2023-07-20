@@ -1,9 +1,14 @@
-import { defineConfig } from 'vite'
-import react from '@vitejs/plugin-react'
+import { defineConfig } from 'vite';
+import react from '@vitejs/plugin-react';
 
-export default defineConfig({
-  plugins: [react()],
-  build: {
-    minify: false,
-  },
-})
+export default defineConfig(({ ssrBuild }) => {
+  return {
+    plugins: [react()],
+    build: {
+      minify: false,
+      rollupOptions: {
+        input: ssrBuild ? 'src/entry-server.jsx' : 'src/entry-client.jsx',
+      },
+    },
+  };
+});

@@ -1,0 +1,14 @@
+.mainnav {
+    display: flex;
+    gap: 28px;
+    margin: 16px auto;
+    padding: 1rem;
+    width: 90%;
+    max-width: var(--layout-max-width);
+    font-size: 1.2rem;
+
+    background-color: white;
+    border-radius: 4px;
+    border-color: blanchedalmond;
+    border-top: 8px solid var(--accent-color);
+}

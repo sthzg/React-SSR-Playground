@@ -1,0 +1,51 @@
+{
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+  "tasks": {
+    "dev": {
+      "name": "dev",
+      "command": "npm run dev",
+      "runAtStart": true,
+      "preview": {
+        "port": 5173
+      }
+    },
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "build:client": {
+      "name": "build:client",
+      "command": "npm run build:client",
+      "runAtStart": false
+    },
+    "build:server": {
+      "name": "build:server",
+      "command": "npm run build:server",
+      "runAtStart": false
+    },
+    "serve": {
+      "name": "serve",
+      "command": "npm run serve",
+      "runAtStart": false,
+      "preview": {
+        "port": 5173
+      }
+    },
+    "debug": {
+      "name": "debug",
+      "command": "npm run debug",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "title": "React SSR Playground",
+  "description": "Explore the renderToPipeableStream API in React 18+",
+  "tags": [
+    "react",
+    "ssr",
+    "vite",
+    "express"
+  ],
+  "published": false
+}

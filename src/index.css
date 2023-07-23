@@ -13,27 +13,27 @@ figure,
 blockquote,
 dl,
 dd {
-    margin: 0;
-    font-family: monospace;
-    font-weight: normal;
+  margin: 0;
+  font-family: monospace;
+  font-weight: normal;
 }
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
-ul[role="list"],
-ol[role="list"] {
-    list-style: none;
+ul[role='list'],
+ol[role='list'] {
+  list-style: none;
 }
 
 /* Set core root defaults */
 html:focus-within {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 /* Make images easier to work with */
 img,
 picture {
-    max-width: 100%;
-    display: block;
+  max-width: 100%;
+  display: block;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -41,85 +41,85 @@ input,
 button,
 textarea,
 select {
-    font: inherit;
+  font: inherit;
 }
 
 /* Remove all animations and transitions for people that prefer not to see them */
 @media (prefers-reduced-motion: reduce) {
-    html:focus-within {
-        scroll-behavior: auto;
-    }
+  html:focus-within {
+    scroll-behavior: auto;
+  }
 
-    *,
-    *::before,
-    *::after {
-        animation-duration: 0.01ms !important;
-        animation-iteration-count: 1 !important;
-        transition-duration: 0.01ms !important;
-        scroll-behavior: auto !important;
-    }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
 }
 
 /* ––––––––––––––––––––––––––––– */
 /* Global                        */
 /* ––––––––––––––––––––––––––––– */
 :root {
-    --layout-max-width: 720px;
-    --accent-color: firebrick;
+  --layout-max-width: 720px;
+  --accent-color: firebrick;
 }
 
 body {
-    background-color: ghostwhite;
-    font-size: 18px;
-    color: rgb(100, 100, 100);
+  background-color: ghostwhite;
+  font-size: 18px;
+  color: rgb(100, 100, 100);
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
-    text-decoration-thickness: 2px;
-    text-decoration-color: var(--accent-color);
-    text-underline-offset: 4px;
+  color: inherit;
+  text-decoration: none;
+  text-decoration-thickness: 2px;
+  text-decoration-color: var(--accent-color);
+  text-underline-offset: 4px;
 }
 
 a.active,
 a:hover {
-    text-decoration: var(--accent-color) wavy underline;
+  text-decoration: var(--accent-color) wavy underline;
 }
 
 /* ––––––––––––––––––––––––––––– */
 /* Helpers                       */
 /* ––––––––––––––––––––––––––––– */
 .prose {
-    padding-block: 8px;
-    color: black;
+  padding-block: 8px;
+  color: black;
 }
 
 .prose h1 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 .prose h2 {
-    font-size: 1.7rem;
+  font-size: 1.7rem;
 }
 
 .prose h3 {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .prose h4 {
-    font-size: 1.3rem;
+  font-size: 1.3rem;
 }
 
 .prose h5,
 .prose h6 {
-    font-size: 1.15rem;
+  font-size: 1.15rem;
 }
 
 .prose {
-    line-height: 1.5;
+  line-height: 1.5;
 }
 
 .prose p {
-    margin-block: 1.5em;
+  margin-block: 1.5em;
 }

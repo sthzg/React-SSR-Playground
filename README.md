@@ -5,7 +5,7 @@ experimenting with [its options and behaviors][react-docs].
 
 ## Usage
 
-[![Edit react-ssr-playground](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/github/sthzg/React-SSR-Playground/tree/main/?fontsize=14&hidenavigation=1)
+[![Edit react-ssr-playground](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/p/github/sthzg/React-SSR-Playground/main)
 
 **Local development**
 

@@ -1,6 +1,7 @@
 import { renderToPipeableStream } from 'react-dom/server';
 import { StaticRouter } from 'react-router-dom/server';
 import { App } from './App';
+import favicon from './assets/favicon.ico';
 
 export function render({ res, url, context, assets }) {
   const Document = () => (
@@ -12,6 +13,7 @@ export function render({ res, url, context, assets }) {
         {assets.css?.map((href) => (
           <link key={href} rel="stylesheet" href={href} />
         ))}
+        <link rel="icon" href={favicon} type="image/svg+xml" />
       </head>
       <body>
         <div id="app">

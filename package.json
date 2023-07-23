@@ -1,5 +1,6 @@
 {
-  "name": "@vitejs/test-ssr-react",
+  "name": "@sthzg/react-ssr-playground",
+  "description": "Explore the renderToPipeableStream API in React 18+",
   "private": true,
   "version": "0.0.0",
   "type": "module",

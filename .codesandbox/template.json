@@ -7,5 +7,5 @@
     "vite",
     "express"
   ],
-  "published": false
+  "published": true
 }

@@ -5,7 +5,7 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "conc \"npm:build:client -- -w\" \"npm:build:server -- -w\" \"NODE_ENV=production ./node_modules/.bin/nodemon server\"",
+    "dev": "npm run build && conc \"npm:build:client -- -w\" \"npm:build:server -- -w\" \"NODE_ENV=production ./node_modules/.bin/nodemon server\"",
     "dev:hmr": "node server",
     "build": "npm run build:client && npm run build:server",
     "build:client": "vite build --outDir dist/client --manifest --ssrManifest",
